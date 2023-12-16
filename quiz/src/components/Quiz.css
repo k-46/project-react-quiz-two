@@ -1,0 +1,99 @@
+.quiz {
+    width: 70%;
+    background-color: white;
+    height: 80%;
+    border-left: 6px solid #8686f3;
+    padding: 30px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.questionBlock {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#questionNo {
+    text-align: left;
+    width: 90%;
+}
+
+.optionsBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    /* border: 2px solid red; */
+
+}
+
+.options {
+    padding: 30px;
+    /* border: 2px solid red; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    column-gap: 30px;
+    height: 90%;
+    align-items: center;
+}
+
+.option {
+    height: 40%;
+    border-radius: 25px;
+    background-color: #1ea1f1;
+    border-style: hidden;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: large;
+}
+
+.settingButtons {
+    /* border: 2px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+
+.settingButtons button {
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+#previousButton {
+    height: 100%;
+    background-color: #3e7eaa;
+    border-style: hidden;
+    cursor: pointer;
+    width: 30%;
+}
+
+#nextButton {
+    height: 100%;
+    background-color: #008001;
+    border-style: hidden;
+    cursor: pointer;
+    width: 30%;
+}
+
+#quitButton {
+    height: 100%;
+    background-color: #ff0000;
+    border-style: hidden;
+    cursor: pointer;
+    width: 30%;
+}
+
+#question {
+    font-weight: 400;
+}
